@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #007878;
+}
+
+.heads {
+  color: white;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  &:focus {
+    border: 2px solid #007878;
+    outline: none;
+  }
+}
+.service ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+.service ul span {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+}
+
+.navigateSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.navigateSection .icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navigateSection a {
+  color: black;
+  text-decoration: none;
+}
+
+.input {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+  }
+}
+
+.input i {
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  font-size: 20px;
+}
+
+.navSection ul {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navSection {
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      color: #007878;
+    }
+  }
+}
+
+.navSection .header {
+  h1 {
+    font-family: "Rubik";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 68px;
+    text-align: left;
+  }
+}
+
+.basket-card {
+  width: 744px;
+  height: 211px;
+  padding: 17px;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  .basket-image {
+    width: 151px;
+    height: 179px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .text {
+    p {
+      font-family: "Rubik";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27.2px;
+      text-align: left;
+      margin: 0;
+    }
+    span {
+      display: block;
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23.8px;
+      text-align: left;
+      color: #212121bf;
+      margin: 12px 0;
+    }
+    .count {
+      display: flex;
+      gap: 5px;
+      button {
+        padding: 5px;
+        border: none;
+        background-color: inherit;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input {
+        width: 20px;
+        padding: 4px;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+  .price {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .wish-and-remove {
+      display: flex;
+      gap: 10px;
+    }
+    p {
+      font-family: "Rubik";
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30.6px;
+    }
+  }
+}
+
+.advantages-content {
+  border: 1px solid #e4e4e4;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 40px 0;
+  .advantages-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i {
+      font-size: 48px;
+      color: #007878;
+    }
+    p {
+      font-weight: 500;
+      margin: 0;
+      text-align: center;
+      max-width: 19.2rem;
+    }
+  }
+}
+
+.total-price {
+  border-radius: 8px;
+  background: #f9f9f9;
+  padding: 20px;
+}
+.buttons {
+  button {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+  }
+  .add_to_card {
+    background: #df4244;
+    border: none;
+    color: whitesmoke;
+  }
+  .cash {
+    background: inherit;
+  }
+}
+
+.snobella-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+footer {
+  background: #f9f9f9;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.common {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.snobella-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  margin-top: 25px;
+}
+
+.footer-left p {
+  width: 300px;
+  font-size: 17px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 45px;
+}
+.endFoot {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  div {
+    display: flex;
+    gap: 30px;
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
